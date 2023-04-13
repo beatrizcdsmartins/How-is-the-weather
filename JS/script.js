@@ -79,7 +79,7 @@ const showWeatherData = async(city) =>{
 
     windElement.innerText = `${data.wind.speed} Km/h`
 
-    weatherIconElement.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
+    weatherIconElement.setAttribute("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
 
     
    flagElement.setAttribute("src", `https://flagcdn.com/16x12/${data.sys.country.toLowerCase()}.png` )
